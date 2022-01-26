@@ -1,0 +1,31 @@
+2021-11-15 16:46:49,066 INFO    MainThread:15684 [wandb_setup.py:_flush():69] setting env: {}
+2021-11-15 16:46:49,066 INFO    MainThread:15684 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-11-15 16:46:49,066 INFO    MainThread:15684 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '8edb36bfbe278f21217c90fc63d4651f52fcfe26'}
+2021-11-15 16:46:49,067 INFO    MainThread:15684 [wandb_init.py:_log_setup():338] Logging user logs to G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_164649-13ae7wmb\logs\debug.log
+2021-11-15 16:46:49,067 INFO    MainThread:15684 [wandb_init.py:_log_setup():339] Logging internal logs to G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_164649-13ae7wmb\logs\debug-internal.log
+2021-11-15 16:46:49,067 INFO    MainThread:15684 [wandb_init.py:init():371] calling init triggers
+2021-11-15 16:46:49,067 INFO    MainThread:15684 [wandb_init.py:init():378] wandb.init called with sweep_config: {}
+config: {'env': 'HalfCheetahBulletEnv-v0', 'max_timesteps': 1000000, 'tau': 0.005, 'n_random_timesteps': 10000, 'expl_noise': 0.1, 'batch_size': 256, 'eval_freq': 5000, 'save_model': False, 'policy_noise': 0.2, 'discount': 0.99, 'algo_name': 'TD3', 'policy_freq': 2, 'lr': 0.0003, 'seed': 1636987547, 'noise_clip': 0.5}
+2021-11-15 16:46:49,068 INFO    MainThread:15684 [wandb_init.py:init():420] starting backend
+2021-11-15 16:46:49,068 INFO    MainThread:15684 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-11-15 16:46:49,121 INFO    MainThread:15684 [backend.py:ensure_launched():135] starting backend process...
+2021-11-15 16:46:49,254 INFO    MainThread:15684 [backend.py:ensure_launched():140] started backend process with pid: 14080
+2021-11-15 16:46:49,255 INFO    MainThread:15684 [wandb_init.py:init():425] backend started and connected
+2021-11-15 16:46:49,257 INFO    MainThread:15684 [wandb_init.py:init():473] updated telemetry
+2021-11-15 16:46:49,257 INFO    MainThread:15684 [wandb_init.py:init():492] communicating current version
+2021-11-15 16:46:51,668 INFO    MainThread:15684 [wandb_init.py:init():497] got version response upgrade_message: "wandb version 0.12.6 available, but requires python3.6+, see http://wandb.me/library-eol-python35"
+
+2021-11-15 16:46:51,670 INFO    MainThread:15684 [wandb_init.py:init():505] communicating run to backend with 30 second timeout
+2021-11-15 16:46:52,026 INFO    MainThread:15684 [wandb_init.py:init():530] starting run threads in backend
+2021-11-15 16:46:57,066 INFO    MainThread:15684 [wandb_run.py:_console_start():1625] atexit reg
+2021-11-15 16:46:57,067 INFO    MainThread:15684 [wandb_run.py:_redirect():1499] redirect: SettingsConsole.WRAP
+2021-11-15 16:46:57,068 INFO    MainThread:15684 [wandb_run.py:_redirect():1536] Wrapping output streams.
+2021-11-15 16:46:57,070 INFO    MainThread:15684 [wandb_run.py:_redirect():1560] Redirects installed.
+2021-11-15 16:46:57,070 INFO    MainThread:15684 [wandb_init.py:init():555] run started, returning control to user process
+2021-11-15 16:46:57,111 INFO    Dummy-13  :15684 [wandb_run.py:_atexit_cleanup():1595] got exitcode: 1
+2021-11-15 16:46:57,112 INFO    Dummy-13  :15684 [wandb_run.py:_restore():1567] restore
+2021-11-15 16:47:03,105 INFO    Dummy-13  :15684 [wandb_run.py:_wait_for_finish():1717] got exit ret: None
+2021-11-15 16:47:08,218 INFO    Dummy-13  :15684 [wandb_run.py:_wait_for_finish():1717] got exit ret: None
+2021-11-15 16:47:13,331 INFO    Dummy-13  :15684 [wandb_run.py:_wait_for_finish():1717] got exit ret: None
+2021-11-15 16:47:18,441 INFO    Dummy-13  :15684 [wandb_run.py:_wait_for_finish():1717] got exit ret: None
+2021-11-15 16:47:23,558 INFO    Dummy-13  :15684 [wandb_run.py:_wait_for_finish():1717] got exit ret: None

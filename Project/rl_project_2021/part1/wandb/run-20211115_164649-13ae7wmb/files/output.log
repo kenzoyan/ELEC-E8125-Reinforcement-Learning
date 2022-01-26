@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\gym\envs\registration.py", line 121, in spec
+    return self.env_specs[id]
+KeyError: 'HalfCheetahBulletEnv-v0'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "td3.py", line 276, in <module>
+    env = gym.make(args.env)
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\gym\envs\registration.py", line 145, in make
+    return registry.make(id, **kwargs)
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\gym\envs\registration.py", line 89, in make
+    spec = self.spec(path)
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\gym\envs\registration.py", line 131, in spec
+    raise error.UnregisteredEnv('No registered env with id: {}'.format(id))
+gym.error.UnregisteredEnv: No registered env with id: HalfCheetahBulletEnv-v0

@@ -1,0 +1,2 @@
+D:\Anaconda\envs\Pytorch\lib\site-packages\gym\logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))

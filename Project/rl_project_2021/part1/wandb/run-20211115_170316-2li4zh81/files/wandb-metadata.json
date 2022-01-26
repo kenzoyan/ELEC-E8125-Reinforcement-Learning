@@ -1,0 +1,21 @@
+{
+    "cuda": null,
+    "gpu_count": 1,
+    "gpu": "GeForce GTX 960M",
+    "username": "57070",
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.5.6",
+    "executable": "D:\\Anaconda\\envs\\Pytorch\\python.exe",
+    "docker": null,
+    "state": "running",
+    "heartbeatAt": "2021-11-15T15:03:23.254292",
+    "codePath": "td3.py",
+    "program": "td3.py",
+    "args": [
+        "--env",
+        "InvertedPendulumBulletEnv-v0"
+    ],
+    "cpu_count": 4,
+    "host": "KenzoOMEN",
+    "startedAt": "2021-11-15T15:03:16.886106"
+}

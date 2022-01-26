@@ -1,0 +1,18 @@
+{
+    "args": [],
+    "docker": null,
+    "python": "3.5.6",
+    "codePath": "td3.py",
+    "state": "running",
+    "gpu": "GeForce GTX 960M",
+    "gpu_count": 1,
+    "username": "57070",
+    "cuda": null,
+    "host": "KenzoOMEN",
+    "os": "Windows-10-10.0.19041-SP0",
+    "startedAt": "2021-11-15T14:46:49.063372",
+    "cpu_count": 4,
+    "program": "td3.py",
+    "heartbeatAt": "2021-11-15T14:47:19.019583",
+    "executable": "D:\\Anaconda\\envs\\Pytorch\\python.exe"
+}

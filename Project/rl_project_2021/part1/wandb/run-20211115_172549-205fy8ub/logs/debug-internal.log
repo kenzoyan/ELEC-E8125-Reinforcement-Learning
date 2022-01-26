@@ -1,0 +1,54 @@
+2021-11-15 17:25:51,320 INFO    MainThread:18588 [internal.py:wandb_internal():91] W&B internal server running at pid: 18588, started at: 2021-11-15 17:25:51.312042
+2021-11-15 17:25:51,322 INFO    WriterThread:18588 [datastore.py:open_for_write():80] open: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\run-205fy8ub.wandb
+2021-11-15 17:25:51,323 DEBUG   HandlerThread:18588 [handler.py:handle_request():124] handle_request: check_version
+2021-11-15 17:25:51,335 DEBUG   SenderThread:18588 [sender.py:send():179] send: header
+2021-11-15 17:25:51,335 DEBUG   SenderThread:18588 [sender.py:send_request():193] send_request: check_version
+2021-11-15 17:25:52,332 DEBUG   SenderThread:18588 [sender.py:send():179] send: run
+2021-11-15 17:25:52,378 DEBUG   SenderThread:18588 [git.py:repo():33] git repository is invalid
+2021-11-15 17:25:52,702 INFO    SenderThread:18588 [dir_watcher.py:__init__():168] watching files in: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files
+2021-11-15 17:25:52,702 INFO    SenderThread:18588 [sender.py:_start_run_threads():719] run started: 205fy8ub with start time 1636989949
+2021-11-15 17:25:52,703 DEBUG   SenderThread:18588 [sender.py:send():179] send: summary
+2021-11-15 17:25:52,703 INFO    SenderThread:18588 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-11-15 17:25:52,705 DEBUG   HandlerThread:18588 [handler.py:handle_request():124] handle_request: run_start
+2021-11-15 17:25:53,715 INFO    Thread-12 :18588 [dir_watcher.py:_on_file_created():216] file/dir created: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\wandb-summary.json
+2021-11-15 17:25:56,105 DEBUG   HandlerThread:18588 [meta.py:__init__():39] meta init
+2021-11-15 17:25:56,106 DEBUG   HandlerThread:18588 [meta.py:__init__():53] meta init done
+2021-11-15 17:25:56,106 DEBUG   HandlerThread:18588 [meta.py:probe():210] probe
+2021-11-15 17:25:56,445 DEBUG   HandlerThread:18588 [git.py:repo():33] git repository is invalid
+2021-11-15 17:25:56,445 DEBUG   HandlerThread:18588 [meta.py:_save_pip():57] save pip
+2021-11-15 17:25:56,446 DEBUG   HandlerThread:18588 [meta.py:_save_pip():71] save pip done
+2021-11-15 17:25:56,447 DEBUG   HandlerThread:18588 [meta.py:_save_conda():78] save conda
+2021-11-15 17:25:56,731 INFO    Thread-12 :18588 [dir_watcher.py:_on_file_created():216] file/dir created: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\conda-environment.yaml
+2021-11-15 17:25:56,732 INFO    Thread-12 :18588 [dir_watcher.py:_on_file_created():216] file/dir created: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\requirements.txt
+2021-11-15 17:25:57,741 INFO    Thread-12 :18588 [dir_watcher.py:_on_file_created():216] file/dir created: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\output.log
+2021-11-15 17:25:59,746 INFO    Thread-12 :18588 [dir_watcher.py:_on_file_modified():229] file/dir modified: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\output.log
+2021-11-15 17:26:00,748 INFO    Thread-12 :18588 [dir_watcher.py:_on_file_modified():229] file/dir modified: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\conda-environment.yaml
+2021-11-15 17:26:00,768 DEBUG   HandlerThread:18588 [meta.py:_save_conda():86] save conda done
+2021-11-15 17:26:00,769 DEBUG   HandlerThread:18588 [meta.py:probe():252] probe done
+2021-11-15 17:26:00,778 DEBUG   HandlerThread:18588 [handler.py:handle_request():124] handle_request: stop_status
+2021-11-15 17:26:00,778 DEBUG   SenderThread:18588 [sender.py:send_request():193] send_request: stop_status
+2021-11-15 17:26:01,015 DEBUG   SenderThread:18588 [sender.py:send():179] send: files
+2021-11-15 17:26:01,016 INFO    SenderThread:18588 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-11-15 17:26:01,724 INFO    Thread-15 :18588 [upload_job.py:push():137] Uploaded file C:\Users\57070\AppData\Local\Temp\tmpcxhl05vvwandb\thhtzg9o-wandb-metadata.json
+2021-11-15 17:26:01,751 INFO    Thread-12 :18588 [dir_watcher.py:_on_file_created():216] file/dir created: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\wandb-metadata.json
+2021-11-15 17:26:16,453 WARNING MainThread:18588 [internal.py:is_dead():367] Internal process exiting, parent pid 19444 disappeared
+2021-11-15 17:26:16,453 ERROR   MainThread:18588 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-11-15 17:26:16,870 INFO    WriterThread:18588 [datastore.py:close():288] close: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\run-205fy8ub.wandb
+2021-11-15 17:26:17,113 INFO    SenderThread:18588 [sender.py:finish():947] shutting down sender
+2021-11-15 17:26:17,113 INFO    SenderThread:18588 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-11-15 17:26:17,113 INFO    HandlerThread:18588 [handler.py:finish():658] shutting down handler
+2021-11-15 17:26:17,837 INFO    SenderThread:18588 [dir_watcher.py:finish():312] scan: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files
+2021-11-15 17:26:17,837 INFO    SenderThread:18588 [dir_watcher.py:finish():318] scan save: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\conda-environment.yaml conda-environment.yaml
+2021-11-15 17:26:17,837 INFO    SenderThread:18588 [dir_watcher.py:finish():318] scan save: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\config.yaml config.yaml
+2021-11-15 17:26:17,839 INFO    SenderThread:18588 [dir_watcher.py:finish():318] scan save: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\output.log output.log
+2021-11-15 17:26:17,848 INFO    SenderThread:18588 [dir_watcher.py:finish():318] scan save: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\requirements.txt requirements.txt
+2021-11-15 17:26:17,849 INFO    SenderThread:18588 [dir_watcher.py:finish():318] scan save: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\wandb-metadata.json wandb-metadata.json
+2021-11-15 17:26:17,849 INFO    SenderThread:18588 [dir_watcher.py:finish():318] scan save: G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\wandb-summary.json wandb-summary.json
+2021-11-15 17:26:17,854 INFO    SenderThread:18588 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-15 17:26:17,854 INFO    SenderThread:18588 [file_pusher.py:join():182] waiting for file pusher
+2021-11-15 17:26:18,499 INFO    Thread-19 :18588 [upload_job.py:push():137] Uploaded file G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\requirements.txt
+2021-11-15 17:26:18,500 INFO    Thread-16 :18588 [upload_job.py:push():137] Uploaded file G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\conda-environment.yaml
+2021-11-15 17:26:18,534 INFO    Thread-17 :18588 [upload_job.py:push():137] Uploaded file G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\config.yaml
+2021-11-15 17:26:18,535 INFO    Thread-18 :18588 [upload_job.py:push():137] Uploaded file G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\output.log
+2021-11-15 17:26:18,590 INFO    Thread-20 :18588 [upload_job.py:push():137] Uploaded file G:\temp\Course\ELEC-E8125 Reinforcement Learning\Project\rl_project_2021\part1\wandb\run-20211115_172549-205fy8ub\files\wandb-summary.json
+2021-11-15 17:26:19,030 INFO    Dummy-21  :18588 [internal.py:handle_exit():78] Internal process exited

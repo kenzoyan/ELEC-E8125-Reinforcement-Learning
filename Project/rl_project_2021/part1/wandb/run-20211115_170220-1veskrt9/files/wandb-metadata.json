@@ -1,0 +1,21 @@
+{
+    "executable": "D:\\Anaconda\\envs\\Pytorch\\python.exe",
+    "startedAt": "2021-11-15T15:02:20.585348",
+    "heartbeatAt": "2021-11-15T15:02:27.568225",
+    "codePath": "td3.py",
+    "os": "Windows-10-10.0.19041-SP0",
+    "args": [
+        "--env",
+        "InvertedPendulumBulletEnv_v0"
+    ],
+    "username": "57070",
+    "python": "3.5.6",
+    "state": "running",
+    "gpu_count": 1,
+    "cuda": null,
+    "docker": null,
+    "gpu": "GeForce GTX 960M",
+    "cpu_count": 4,
+    "host": "KenzoOMEN",
+    "program": "td3.py"
+}

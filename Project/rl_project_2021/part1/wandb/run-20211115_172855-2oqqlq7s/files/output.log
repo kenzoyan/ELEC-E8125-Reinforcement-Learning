@@ -1,0 +1,34 @@
+D:\Anaconda\envs\Pytorch\lib\site-packages\gym\logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+  0%|                                                                                      | 0/1000000 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+  0%|                                                                         | 1020/1000000 [00:21<5:57:13, 46.61it/s]
+Traceback (most recent call last):
+  File "td3.py", line 320, in <module>
+    next_state, reward, done, _ = env.step(action)
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\gym\wrappers\time_limit.py", line 16, in step
+    observation, reward, done, info = self.env.step(action)
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\pybullet_envs\gym_locomotion_envs.py", line 69, in step
+    state = self.robot.calc_state()  # also calculates self.joints_at_limit
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\pybullet_envs\robot_locomotors.py", line 44, in calc_state
+    parts_xyz = np.array([p.pose().xyz() for p in self.parts.values()]).flatten()
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\pybullet_envs\robot_locomotors.py", line 44, in <listcomp>
+    parts_xyz = np.array([p.pose().xyz() for p in self.parts.values()]).flatten()
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\pybullet_envs\robot_bases.py", line 254, in xyz
+    return self.body_part.current_position()
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\pybullet_envs\robot_bases.py", line 298, in current_position
+    return self.get_pose()[:3]
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\pybullet_envs\robot_bases.py", line 287, in get_pose
+    return self.state_fields_of_pose_of(self.bodies[self.bodyIndex], self.bodyPartIndex)
+  File "D:\Anaconda\envs\Pytorch\lib\site-packages\pybullet_envs\robot_bases.py", line 280, in state_fields_of_pose_of
+    (x, y, z), (a, b, c, d), _, _, _, _ = self._p.getLinkState(body_id, link_id)
+KeyboardInterrupt

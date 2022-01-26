@@ -1,0 +1,10 @@
+D:\Anaconda\envs\Pytorch\lib\site-packages\gym\logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+  0%|                                                                                      | 0/1000000 [00:00<?, ?it/s]
+  0%|                                                                          | 1/1000000 [00:03<863:10:51,  3.11s/it]
+Traceback (most recent call last):
+  File "td3.py", line 333, in <module>
+    policy_update_info = td3.train(replay_buffer.sample(args.batch_size))
+  File "td3.py", line 204, in train
+    actor_loss=self.critic(state,self.actor(state)).mean()  #???
+AttributeError: 'tuple' object has no attribute 'mean'
